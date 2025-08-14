@@ -1,0 +1,1 @@
+# praha-third-party-cookie
