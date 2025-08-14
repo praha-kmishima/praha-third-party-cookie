@@ -4,7 +4,7 @@ import { Hono } from 'hono'
 const app = new Hono()
 
 // 先にサードパーティーのAPIをngrokでURL生成して、生成されたURLに書き換える
-const thirdPartyScriptUrl = 'https://dcc4fa45a3bd.ngrok-free.app/script.js'
+const thirdPartyScriptUrl = 'https://organic-parakeet-g6774gqvv4xc9pv5-8000.app.github.dev/script.js'
 
 app.get('/', (c) => {
   c.header('Set-Cookie', 'firstparty=hello; Path=/; SameSite=Lax')
